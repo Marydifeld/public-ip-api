@@ -20,6 +20,7 @@ A FastAPI-based Public IP Lookup API that returns your IP address and location d
 | `GET` | `/ip/{ip}` | Lookup details for a specific IP |
 
 ## How to Run Locally
-In bash:
+```
 pip install -r requirements.txt
 uvicorn main:app --reload
+```
